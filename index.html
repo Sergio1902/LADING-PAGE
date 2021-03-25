@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- normalize -->
+     <link rel="stylesheet" href="assets/normalize.css">
+     <!-- style propio -->
+     <link rel="stylesheet" href="assets/style.css">
+     
+
+     <!-- PUEDES UTILIZAR LA LIBRERIA 
+     https://github.com/jonmircha/include-html/blob/master/include-html.js -->
+     
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            box-sizing: border-box;
+        }
+        .main-container{
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header{
+            height: 100px;
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+        }
+        nav a{
+            display: block;
+        }
+        nav a:not(:last-child){
+            margin-right: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="assets/index1.html">inicio</a>
+            <a href="assets/index2.html">Integrants</a>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <!-- MAIN FOOTER -->
+    <div class="main-footer">
+        <div class="main-container">
+            <div class="footer">
+                <nav class="lista-footer">
+                    <ul class="enlaces">
+                        <li class="logo-footer">
+                            <a href="https://www.facebook.com/aguilasdemexico.elmariachi/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="logo-footer">
+                            <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="logo-footer">
+                            <a href="https://wa.me/51966464770" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="text-footer">
+                    <p>2020 @Aguilas de México.</p>
+                    <p>Cel: 966464770 - 01 5948831 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/0f83311815.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
